@@ -1,0 +1,141 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "install": {
+      "jdk17": {
+        "pkg-path": "jdk17"
+      }
+    },
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "packages": [
+    {
+      "attr_path": "jdk17",
+      "broken": false,
+      "derivation": "/nix/store/7nv8n0sq19qwd98sx8jz5vw6hqmc0kqz-zulu-ca-jdk-17.0.12.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk17",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "name": "zulu-ca-jdk-17.0.12",
+      "pname": "jdk17",
+      "rev": "46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "rev_count": 791944,
+      "rev_date": "2025-04-29T12:35:57Z",
+      "scrape_date": "2025-04-30T04:19:46.084825Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "17.0.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/69zzx14rvpnwlzdf5rkvdwkak0nxi17z-zulu-ca-jdk-17.0.12"
+      },
+      "system": "aarch64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk17",
+      "broken": false,
+      "derivation": "/nix/store/vi895ybvd9cwgc1xc7pn3gsycnga84my-openjdk-17.0.14+7.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk17",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "name": "openjdk-17.0.14+7",
+      "pname": "jdk17",
+      "rev": "46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "rev_count": 791944,
+      "rev_date": "2025-04-29T12:35:57Z",
+      "scrape_date": "2025-04-30T04:38:32.985355Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "17.0.14+7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/y03c553cmyfnxxr9f4m7yq68k9vgcpld-openjdk-17.0.14+7-debug",
+        "out": "/nix/store/ga59wav73rs74ax23z3k2yi1mhw710dg-openjdk-17.0.14+7"
+      },
+      "system": "aarch64-linux",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk17",
+      "broken": false,
+      "derivation": "/nix/store/266yvipy71z86x7phl5yli3a40lk6ivy-zulu-ca-jdk-17.0.12.drv",
+      "description": "Certified builds of OpenJDK",
+      "install_id": "jdk17",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "name": "zulu-ca-jdk-17.0.12",
+      "pname": "jdk17",
+      "rev": "46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "rev_count": 791944,
+      "rev_date": "2025-04-29T12:35:57Z",
+      "scrape_date": "2025-04-30T04:56:07.893208Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "17.0.12",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "out": "/nix/store/f5lkzdwvv9jz4zqr1fnax7ks0gwvc42r-zulu-ca-jdk-17.0.12"
+      },
+      "system": "x86_64-darwin",
+      "group": "toplevel",
+      "priority": 5
+    },
+    {
+      "attr_path": "jdk17",
+      "broken": false,
+      "derivation": "/nix/store/vaqfypmxswicylxd3x2ydlhx3i6p9azx-openjdk-17.0.14+7.drv",
+      "description": "Open-source Java Development Kit",
+      "install_id": "jdk17",
+      "license": "GPL-2.0-only",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "name": "openjdk-17.0.14+7",
+      "pname": "jdk17",
+      "rev": "46e634be05ce9dc6d4db8e664515ba10b78151ae",
+      "rev_count": 791944,
+      "rev_date": "2025-04-29T12:35:57Z",
+      "scrape_date": "2025-04-30T05:20:39.521013Z",
+      "stabilities": [
+        "unstable"
+      ],
+      "unfree": false,
+      "version": "17.0.14+7",
+      "outputs_to_install": [
+        "out"
+      ],
+      "outputs": {
+        "debug": "/nix/store/b4lnhs2vq608rh9cnpbwf67ck72s85k1-openjdk-17.0.14+7-debug",
+        "out": "/nix/store/ilr3fvk78n0wv4c1s2n39m7bicrj7m0k-openjdk-17.0.14+7"
+      },
+      "system": "x86_64-linux",
+      "group": "toplevel",
+      "priority": 5
+    }
+  ]
+}
